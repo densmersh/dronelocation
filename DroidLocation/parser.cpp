@@ -36,13 +36,10 @@ void Parser::recievePackageFromDrone(QByteArray dronePackage)
         else if(subcommand == LONGTITUDE)
         {
             parseCoordinate(dronePackage.at(3), dronePackage.at(4),dronePackage.at(5),dronePackage.at(6),dronePackage.at(7));
-
         }
         else if(subcommand == ALTITUDE)
         {
-            int high = (dronePackage.at(3)) << 8;
-            qDebug()<< high;
-            qDebug()<< (dronePackage.at(3) << 8) + dronePackage.at(4);
+           (dronePackage.at(3) << 8) + dronePackage.at(4);
         }
         else if(subcommand == SATELLITE_INFO)
         {
