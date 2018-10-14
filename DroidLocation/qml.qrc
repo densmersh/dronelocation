@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>main.qml</file>
+        <file>images/altitude.png</file>
+        <file>images/distance.png</file>
+        <file>images/home.png</file>
+        <file>images/position.png</file>
+        <file>images/satellite.png</file>
+        <file>images/phoneSignal.png</file>
+        <file>images/remoteSignal.png</file>
+        <file>images/droneView.png</file>
+        <file>images/homeView.png</file>
+        <file>images/milkiway.jpg</file>
+        <file>images/milkyway1.jpg</file>
+    </qresource>
+</RCC>
